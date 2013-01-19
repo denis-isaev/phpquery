@@ -1,0 +1,22 @@
+{
+    "name": "denis-isaev/phpquery",
+    "type": "library",
+    "description": "Port of jQuery in PHP",
+    "keywords": ["jquery","domcrawler","css selectors"],
+    "homepage": "http://github.com/denis-isaev/phpquery",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobiasz Cudnik",
+            "email": "tobiasz.cudnik@gmail.com",
+            "homepage": "https://github.com/TobiaszCudnik",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["phpQuery/"]
+    }
+}
